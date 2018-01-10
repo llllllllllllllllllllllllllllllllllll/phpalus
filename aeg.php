@@ -10,7 +10,6 @@ echo time().'<br />';
 echo mktime(14, 56, 00, 1, 09, 2018).'<br />';
 $tana = date("H:i");
 echo $tana.'<br />';
-
 /*
  * Koosta skript, mis väljastab vormi, mille kaudu
  * kasutajal on võimalik sisestada oma sünnikuupäev
