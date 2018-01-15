@@ -16,3 +16,6 @@ $minuTekst = new tekst('tere maailm');
 echo '<pre>';
 print_r($minuTekst);
 echo '</pre>';
+
+// väljastame teksti sone väärtuse
+$minuTekst->prindiTekst();
