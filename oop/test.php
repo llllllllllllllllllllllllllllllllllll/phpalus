@@ -12,9 +12,8 @@ require_once 'tekst.php';
 
 $minuTekst = new tekst();
 
-// paneme midagi sone muutujasse
-$minuTekst ->sone = 'tere maailm';
-
+// teksti lisamine meetodi abil
+$minuTekst->maaraTekst('tere maailm');
 // teostame testvaate objektist
 
 echo '<pre>';

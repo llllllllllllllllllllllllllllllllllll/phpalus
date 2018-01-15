@@ -11,4 +11,9 @@ class tekst
     // klassi omadused
     // klassi muutujad
     var $sone = '';
+    // klassi meetodid
+    // teksti lisamine
+    function maaraTekst($s) {
+        $this->sone = $s;
+    }
 }
