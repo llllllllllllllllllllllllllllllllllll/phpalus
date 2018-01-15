@@ -9,11 +9,8 @@
 require_once 'tekst.php';
 
 // loome reaalse objekti tekst klassi abil
+$minuTekst = new tekst('tere maailm');
 
-$minuTekst = new tekst();
-
-// teksti lisamine meetodi abil
-$minuTekst->maaraTekst('tere maailm');
 // teostame testvaate objektist
 
 echo '<pre>';

@@ -20,9 +20,12 @@ class tekst
     {
         $this->maaraTekst($s);
     }
-
     // teksti lisamine
     function maaraTekst($s) {
         $this->sone = $s;
+    }
+    // teksti väljastamine
+    function prindiTekst() {
+        echo $this->sone.'<br />';
     }
 }
