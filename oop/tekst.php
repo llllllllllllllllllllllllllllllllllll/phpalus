@@ -8,5 +8,7 @@
 
 class tekst
 {
-
+    // klassi omadused
+    // klassi muutujad
+    var $sone = '';
 }
