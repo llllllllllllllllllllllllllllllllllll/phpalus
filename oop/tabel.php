@@ -22,6 +22,26 @@ class tabel
         $this->pealkirjad = $pealkirjad;
         $this->veergudeArv = count($pealkirjad);
     }
-
+    function lisaRida($rida) {
+        if (count($rida) != $this->veergudeArv) {
+            return false;
+        }
+        array_push($this->tabeliSisu, $rida);
+        return true;
+    }
+    function prindiTabel() {
+        echo '<pre>';
+        foreach ($this->pealkirjad as $pealkiri) {
+            echo '<b>'.$pealkiri.'</b>'.' ';
+        }
+        echo "\n";
+        foreach ($this->tabeliSisu as $rida) {
+            foreach ($rida as $reaElement) {
+                echo $reaElement.' ';
+            }
+            echo "\n";
+        }
+        echo '</pre>');
+    }
 
 }
