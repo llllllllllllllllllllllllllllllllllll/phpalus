@@ -12,6 +12,15 @@ class tekst
     // klassi muutujad
     var $sone = '';
     // klassi meetodid
+    // klassi konstruktor
+    /**
+     * tekst constructor.
+     */
+    public function __construct($s)
+    {
+        $this->maaraTekst($s);
+    }
+
     // teksti lisamine
     function maaraTekst($s) {
         $this->sone = $s;
