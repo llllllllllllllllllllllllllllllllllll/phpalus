@@ -20,6 +20,7 @@ class tabel
     public function __construct(array $pealkirjad)
     {
         $this->pealkirjad = $pealkirjad;
+        $this->veergudeArv = count($pealkirjad);
     }
 
 
