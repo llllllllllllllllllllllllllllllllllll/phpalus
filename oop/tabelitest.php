@@ -28,5 +28,5 @@ print_r($tabelTekstina);
 echo '</pre>';
 
 echo '<pre>';
-prindiTabel();
+$minuTabel->prindiTabel();
 echo '</pre>';
